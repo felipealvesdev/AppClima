@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    background-color: #313131;
+}
+
+.navbar{
+    padding-top:0;
+}
+.navbar-brand{
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+.container{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div{
+    padding-top: 0px;
+}
+.container{
+    background-color: #e3e3e3;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+}
+.temperatura{
+    font-size: 150px;
+}
+.temperatura-max-min{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bandeira{
+    max-width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bandeira p {
+    width: 200px;
+}
+.dimensionarBandeira{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bandeira p.dimensionarBandeira img{
+    width: 100px;
+}
+
+.container-formulario{
+    margin-top: 20px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.formulario{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.btn{
+    background-color: #313131;
+    margin-left: 10px;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #525252;
+    transition: all 300ms ease-in-out;
+}
+.btn:hover{
+    background-color: #525252;
+    color: black;
+    border-color: #525252;
+}
+
+#floatingInput{
+    border-radius: 25px;
+    border-color: #525252;
+}
+
+.conteudo p{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    border-radius: 25px;
+    border-color: #525252;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.linkedin{
+    text-decoration: none;
+}
+
+
+footer{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+footer:hover{
+    color: black;
+}
+
